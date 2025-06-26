@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Stephan's Rezepte</title>
+		<link rel="icon" href="../../images/company-logo.svg" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" href="../../css/index.css" />
+		<link rel="stylesheet" href="../../css/recipe-view.css" />
+		<script src="../../js/index.js" defer></script>
+		<script src="../../js/search-recipes-list.js" defer></script>
+		<script src="../../js/adjust-amount.js" defer></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-container">
+				<a class="logo-wrapper" href="../../index.html">
+					<div class="logo">
+						<img
+							class="logo__img"
+							src="../../images/company-logo.svg"
+							width="100"
+							height="100"
+							alt="Firmenlogo"
+						/>
+						<span class="logo__name">Stephan's Rezepte</span>
+					</div>
+				</a>
+				<div class="search">
+					<img
+						class="search__img"
+						src="../../images/magnifying-glass.svg"
+						width="50"
+						height="50"
+						alt="Lupe"
+					/>
+					<input class="search__input" type="search" placeholder="Rezeptname oder Zutat eingeben..." />
+				</div>
+				<nav>
+					<ul class="nav-menu">
+						<li><a class="nav-menu__link" href="../recipes.html">Rezepte</a></li>
+						<li><a class="nav-menu__link" href="../contact.html">Kontakt</a></li>
+					</ul>
+				</nav>
+				<div class="burger-menu">
+					<img
+						class="burger-menu__open-img"
+						src="../../images/burger-menu-open.svg"
+						width="50"
+						height="50"
+						alt="Burgermenü"
+					/>
+					<img
+						class="burger-menu__close-img"
+						src="../../images/burger-menu-close.svg"
+						width="50"
+						height="50"
+						alt="Burgermenu schließen"
+					/>
+				</div>
+			</div>
+			<ul class="recipe-search-list"></ul>
+		</header>
+
+		<main>
+			<div class="recipe">
+				<h2 class="recipe__name">Lasagne</h2>
+				<div class="recipe__wrapper">
+					<img
+						class="recipe__img"
+						src="../../images/recipes/lasagne.jpg"
+						width="1280"
+						height="717"
+						alt="Lasagne"
+					/>
+					<div class="recipe__adjust-amount">
+						<span class="adjust-amount__description">Anzahl Portionen:</span>
+						<button class="adjust-amount__change decrease">-</button>
+						<span class="adjust-amount__portions">4</span>
+						<button class="adjust-amount__change increase">+</button>
+					</div>
+				</div>
+				<table class="recipe__ingridients">
+					<tr>
+						<th>Bolognese-Sauce:</th>
+					</tr>
+					<tr>
+						<td>Hackfleisch</td>
+						<td><span class="ingridient__amount">400</span> g</td>
+					</tr>
+					<tr>
+						<td>passierte Tomaten</td>
+						<td><span class="ingridient__amount">690</span> ml</td>
+					</tr>
+					<tr>
+						<td>Möhre</td>
+						<td><span class="ingridient__amount">1</span> groß</td>
+					</tr>
+					<tr>
+						<td>Tomatenmark</td>
+						<td><span class="ingridient__amount">1</span> Dose</td>
+					</tr>
+					<tr>
+						<td>Gemüsebrühpulver</td>
+						<td><span class="ingridient__amount">1/2</span> TL</td>
+					</tr>
+					<tr>
+						<td>Kräutersalz</td>
+						<td><span class="ingridient__amount">1</span> TL</td>
+					</tr>
+					<tr>
+						<td>italienische Kräuter</td>
+						<td><span class="ingridient__amount">1</span> TL</td>
+					</tr>
+					<tr>
+						<td>Zucker</td>
+						<td>1 Prise</td>
+					</tr>
+					<tr>
+						<th>Béchamelsauce</th>
+					</tr>
+					<tr>
+						<td>Butter</td>
+						<td><span class="ingridient__amount">60</span> g</td>
+					</tr>
+					<tr>
+						<td>Mehl</td>
+						<td><span class="ingridient__amount">40</span> g</td>
+					</tr>
+					<tr>
+						<td>Milch</td>
+						<td><span class="ingridient__amount">500</span> ml</td>
+					</tr>
+					<tr>
+						<td>Sahne</td>
+						<td><span class="ingridient__amount">3</span> EL</td>
+					</tr>
+					<tr>
+						<td>Käse</td>
+						<td><span class="ingridient__amount">150</span> g</td>
+					</tr>
+					<tr>
+						<td>Salz</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Pfeffer</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Muskatnuss</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th>Sonstiges</th>
+					</tr>
+					<tr>
+						<td>Nudelplatten</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Öl</td>
+						<td></td>
+					</tr>
+				</table>
+				<div class="recipe__preparation-wrapper">
+					<h2>Zubereitung:</h2>
+					<h3>Bolognese-Sauce:</h3>
+					<p class="preparation__process">
+						Möhre kleinschneiden und Öl erhitzen. Hackfleisch und Möhre anbraten bis das Hackfleisch
+						krümelig wird. Passierte Tomaten, Tomatenmark, <span class="ingridient__amount">150</span> ml
+						Wasser und Gewürze hinzugeben, ca. 20 Min. köcheln lassen.
+					</p>
+					<h3>Béchamelsauce:</h3>
+					<p class="preparation__process">
+						<span class="ingridient__amount">40</span> g Butter zerlassen und das Mehl unter ständigem
+						Rühren mit dem Schneebesen anschwitzen, dabei solles keine Farbe annehmen. Nach und nach die
+						Milch unterrühren. Danach Gewürze hinzugeben. Bei schwacher Hitze und häufigem Umrühren 10
+						Minuten köcheln lassen. Sahne und <span class="ingridient__amount">20</span> g Butter
+						hinzugeben. Anschließend Käse unter die nicht mehr kochnende Soße rühren.
+					</p>
+					<h3>Abschluss:</h3>
+					<p class="preparation__process">
+						Auflaufform fetten. Abwechselnd Nudelplatten, Bolognese-Sauce und Béchamelsauce schichten. Dabei
+						sollte die erste Schicht aus Nudelplatten und die letzte aus der Béchamelsauce bestehen.
+					</p>
+					<h3>Backofeneinstellung:</h3>
+					<p class="preparation__process">Vorheizen: Nein Einstellung: Heißluft 180°C Zeit: 30 Minuten</p>
+					<div class="recipe__cooking-time">
+						<img
+							class="cooking-time__img"
+							src="../../images/recipes/clock.svg"
+							width="50"
+							height="50"
+							alt="Uhr"
+						/>
+						<span class="cooking-time__preparation">Zubereitung: 30 Min</span>
+						<img
+							class="cooking-time__img"
+							src="../../images/recipes/clock.svg"
+							width="50"
+							height="50"
+							alt="Uhr"
+						/>
+						<span class="cooking-time__total">Gesamt: 1 Std</span>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

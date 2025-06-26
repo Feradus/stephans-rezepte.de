@@ -1,0 +1,65 @@
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding-top: 10%;
+}
+
+label {
+	margin-top: 0.25rem;
+}
+
+input {
+	min-height: 1.5rem;
+	padding-left: 0.5rem;
+}
+
+.half-width {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.half-width input {
+	width: 50%;
+}
+
+.full-width {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.full-width input {
+	flex: 1;
+}
+
+.contact-form textarea {
+	word-wrap: break-word;
+	min-height: 20vh;
+	padding: 1rem;
+}
+
+.contact-form button {
+	text-align: center;
+	width: 5rem;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	background-color: rgba(0, 125, 0, 0.5);
+}
+
+.contact-form input, .contact-form textarea {
+	border: 1px solid black;
+}
+
+@media screen and (min-width: 700px) {
+	.contact-form {
+		max-width: 60%;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.contact-form {
+		max-width: 40%;
+		margin: auto;
+	}
+}

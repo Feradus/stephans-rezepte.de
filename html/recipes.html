@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Stephan's Rezepte</title>
+		<link rel="icon" href="../images/company-logo.svg" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="stylesheet" href="../css/recipes.css" />
+		<script src="../js/index.js" defer></script>
+		<script src="../js/load-recipes.js" defer></script>
+		<script src="../js/search-recipes-grid.js" defer></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-container">
+				<a class="logo-wrapper" href="../index.html">
+					<div class="logo">
+						<img
+							class="logo__img"
+							src="../images/company-logo.svg"
+							width="100"
+							height="100"
+							alt="Firmenlogo"
+						/>
+						<span class="logo__name">Stephan's Rezepte</span>
+					</div>
+				</a>
+				<div class="search">
+					<img class="search__img" src="../images/magnifying-glass.svg" width="50" height="50" alt="Lupe" />
+					<input class="search__input" type="search" placeholder="Rezeptname oder Zutat eingeben..." />
+				</div>
+				<nav>
+					<ul class="nav-menu">
+						<li><a class="nav-menu__link" href="recipes.html">Rezepte</a></li>
+						<li><a class="nav-menu__link" href="contact.html">Kontakt</a></li>
+					</ul>
+				</nav>
+				<div class="burger-menu">
+					<img
+						class="burger-menu__open-img"
+						src="../images/burger-menu-open.svg"
+						width="50"
+						height="50"
+						alt="Burgermenü"
+					/>
+					<img
+						class="burger-menu__close-img"
+						src="../images/burger-menu-close.svg"
+						width="50"
+						height="50"
+						alt="Burgermenu schließen"
+					/>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="recipes">
+				<!--Recipes get dynamically loaded from /data/recipes.json-->
+			</div>
+		</main>
+	</body>
+</html>
