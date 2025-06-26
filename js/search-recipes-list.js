@@ -26,7 +26,7 @@ function searchRecipesList() {
 		const recipeLink = document.createElement('a');
 
 		recipeLink.className = 'recipe-search-list__link';
-		recipeLink.href = '/html/recipes/' + recipe.slug + '.html';
+		recipeLink.href = 'html/recipes/' + recipe.slug + '.html';
 		recipeLink.innerHTML = recipe.name;
 
 		recipeListItem.appendChild(recipeLink);
