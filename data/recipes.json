@@ -2,8 +2,8 @@
 	{
 		"name": "Lasagne",
 		"tags": ["Fleisch", "Hackfleisch", "Tomaten", "Butter", "Mehl", "Milch"],
-		"img": "../images/recipes/lasagne.jpg",
-		"difficultyImg": "../images/recipes/difficulty-medium.svg",
+		"img": "/images/recipes/lasagne.jpg",
+		"difficultyImg": "/images/recipes/difficulty-medium.svg",
 		"difficultyDescription": "mittel",
 		"timeDescription": "1 Std.",
 		"slug": "lasagne"
@@ -11,8 +11,8 @@
 	{
 		"name": "Pfannkuchen mit Bananen",
 		"tags": ["Vegetarisch", "Pfannkuchen", "Bananen", "Schokosauce"],
-		"img": "../images/recipes/pfannkuchen.jpg",
-		"difficultyImg": "../images/recipes/difficulty-easy.svg",
+		"img": "/images/recipes/pfannkuchen.jpg",
+		"difficultyImg": "/images/recipes/difficulty-easy.svg",
 		"difficultyDescription": "einfach",
 		"timeDescription": "30 Min.",
 		"slug": "under-construction"
@@ -20,8 +20,8 @@
 	{
 		"name": "Pizza Salami",
 		"tags": ["Fleisch", "Salami", "Tomaten", "Käse"],
-		"img": "../images/recipes/pizza.jpg",
-		"difficultyImg": "../images/recipes/difficulty-medium.svg",
+		"img": "/images/recipes/pizza.jpg",
+		"difficultyImg": "/images/recipes/difficulty-medium.svg",
 		"difficultyDescription": "mittel",
 		"timeDescription": "60 Min.",
 		"slug": "under-construction"
@@ -29,8 +29,8 @@
 	{
 		"name": "Pulled Chicken Crock-pot",
 		"tags": ["Fleisch", "Huhn", "Semmel"],
-		"img": "../images/recipes/pulled-chicken.jpg",
-		"difficultyImg": "../images/recipes/difficulty-medium.svg",
+		"img": "/images/recipes/pulled-chicken.jpg",
+		"difficultyImg": "/images/recipes/difficulty-medium.svg",
 		"difficultyDescription": "mittel",
 		"timeDescription": "4 Std.",
 		"slug": "under-construction"
@@ -38,8 +38,8 @@
 	{
 		"name": "Spaghetti Bolognese",
 		"tags": ["Fleisch", "Hackfleisch", "Tomaten", "Käse", "Spaghetti", "Nudeln"],
-		"img": "../images/recipes/spaghetti-bolognese.jpg",
-		"difficultyImg": "../images/recipes/difficulty-medium.svg",
+		"img": "/images/recipes/spaghetti-bolognese.jpg",
+		"difficultyImg": "/images/recipes/difficulty-medium.svg",
 		"difficultyDescription": "mittel",
 		"timeDescription": "40 Min.",
 		"slug": "under-construction"

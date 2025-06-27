@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', loadRecipesFromJson);
 function loadRecipesFromJson() {
 	const recipes = document.querySelector('.recipes');
 
-	fetch('../data/recipes.json')
+	fetch('/data/recipes.json')
 		.then((response) => {
 			if (!response.ok) throw new Error('Network response was not ok');
 			return response.json();
